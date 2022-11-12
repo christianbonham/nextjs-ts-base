@@ -18,9 +18,10 @@
     "paths": {
       "@/components/*": ["components/*"],
       "@/pages/*": ["pages/*"],
+      "@/utils/*": ["utils/*"],
       "@/styles/*": ["styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "./jest.*", "next.config.mjs"]
 }
