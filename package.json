@@ -10,7 +10,7 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^13.4.4",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
