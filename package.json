@@ -1,4 +1,6 @@
 {
+  "name": "nextjs-ts-base",
+  "packageManager": "yarn@3.6.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
