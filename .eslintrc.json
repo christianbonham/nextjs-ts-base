@@ -23,9 +23,11 @@
       "extends": ["plugin:testing-library/react"]
     }
   ],
-  "ignorePatterns": ["jest.*", "next.config.mjs"],
+  "ignorePatterns": ["jest.*", "next.config.mjs", "next.config.js", "generated/*"],
   "rules": {
     "prefer-const": "error",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "warn"
   }
 }
